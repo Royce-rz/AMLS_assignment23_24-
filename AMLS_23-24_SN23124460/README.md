@@ -1,4 +1,4 @@
-# Medical Image Analysis Project
+# AMLS_Assignment 23-24
 
 ## Project Description
 This project is to use different algorithm to classify the two different datasets which are PneumoniaMNIST dataset and PathMNIST dataset
