@@ -14,21 +14,17 @@ This project is to use different algorithm to classify the two different dataset
 - `Datasets/`: Directory where the PneumoniaMNIST and PathMNIST datasets are stored.
 
 ## How to Run
-1. Set the `task` variable in `main.py` to either "A" for PneumoniaMNIST or "B" for PathMNIST.
-2. Set the `model` variable to "SVM", "CNN", or "Random Forest" depending on the model you wish to use.
-3. Optionally, set the `retrain` flag to `True` if you want to retrain the model, or `False` to use a pre-trained model.
-
+1. Upload the Datasets to `Datasets` folder, the name should be pneumoniamnist.npz for task A and pathmnist.npz for task B
+2. Get all the environment requirement and go to 'main.py'
 ## Requirements
 
-To run this project, your environment need to include Python 3.8 and several packages. The `environment.yml` file in this repository lists all the necessary dependencies.
+To run this project, your environment need to include Python 3.11.5 and several packages. The `environment.yml` file in this repository lists all the necessary dependencies.
 The project requires the following packages:
 - numpy
-- torch
-- joblib
-- medmnist
-- sklearn
+- warning
+- matplotlib.pyplot
 - matplotlib
+- tensorflow
+- sklearn
 
-## Notes
-- Ensure all the paths and file names are correct and match your project directory structure.
-- Adjust the README as needed to reflect any changes or additions to your project.
+
