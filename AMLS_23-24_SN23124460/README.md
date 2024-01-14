@@ -5,11 +5,13 @@ This project is to use different algorithm to classify the two different dataset
 ## File Structure
 - `main.py`: The main executable script for the project. It handles data loading, model selection, training, and testing.
 - `A/`:
+  
   - `Logistic_Regression.py`: Use Logistic Regression for binary classification on the PneumoniaMNIST dataset.
   - `DecisionTree.py`: Use Decision Tree on the PneumoniaMNIST dataset.
   - `SVM.py`: Use SVM on the PneumoniaMNIST dataset.
+  - `Data.py`: this shows the structure of the dataset for task A and task B, the result will show in `main.py` as well as in report
 - `B/`:
-  - `Logistic_RegressionB.py`: Use Logistic Regression for multi-class classificationon the PathMNIST dataset.
+  - `Logistic_Regression_B.py`: Use Logistic Regression for multi-class classificationon the PathMNIST dataset.
   - `CNN.py`: Contains functions for training and testing the CNN model on the PathMNIST dataset.
 - `Datasets/`: Directory where the PneumoniaMNIST and PathMNIST datasets are stored.
 
