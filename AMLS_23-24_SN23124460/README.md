@@ -18,7 +18,7 @@ This project is to use different algorithm to classify the two different dataset
 2. Get all the environment requirement and go to 'main.py'
 ## Requirements
 
-To run this project, your environment need to include Python 3.11.5 and several packages. The `environment.yml` file in this repository lists all the necessary dependencies.
+To run this project, your environment need to include Python 3.11.5 and several packages. 
 The project requires the following packages:
 - numpy
 - warning
