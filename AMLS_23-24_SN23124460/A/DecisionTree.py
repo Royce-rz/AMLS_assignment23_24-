@@ -1,8 +1,8 @@
 #Import required libraries
-import pandas as pd
+
 import numpy as np
 import matplotlib.pyplot as plt
-from sklearn.datasets import load_iris
+
 from sklearn import tree
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
